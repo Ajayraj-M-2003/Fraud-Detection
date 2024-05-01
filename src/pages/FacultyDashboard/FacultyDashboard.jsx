@@ -1,13 +1,13 @@
 import React from 'react'
-import LeftNavbar from '../../components/LeftNavbar'
-import TopNavbar from '../../components/TopNavbar'
-import Dashboard from '../../components/Dashboard'
+import LeftNavbar from '../FacultyDashboard/LeftNavbar'
+import TopNavbar from '../FacultyDashboard/TopNavbar'
+import Dashboard from './Dashboard'
 
 const FacultyDashboard = () => {
   return (
     <div className="faculty-dashboard">
       <LeftNavbar />
-      <div className="content">
+      <div className="faculty-content">
         <TopNavbar />
         <Dashboard />
       </div>

@@ -1,16 +1,18 @@
 import React from 'react'
-import LeftNavbar from '../../../components/LeftNavbar'
-import TopNavbar from '../../../components/TopNavbar'
-import '../../../styles/FacultyDashboard.css';
+import LeftNavbar from '../LeftNavbar';
+import TopNavbar from '../TopNavbar';
+import '../../../components/FacultyDashboard.css';
+import faculty from '../../../assets/faculty.jpg';
+
 const Profile = () => {
   return (
     <div className="faculty-dashboard">
       <LeftNavbar />
-      <div className="content">
+      <div className="faculty-content">
         <TopNavbar />
         <div className='fac-container'>
           <div className='image'>
-            <img src="faculty.jpg" alt="logo" />
+            <img src={faculty} alt="logo" />
           </div>
             
         </div>

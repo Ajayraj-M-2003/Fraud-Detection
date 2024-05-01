@@ -1,12 +1,12 @@
 import React from 'react';
-import LeftNavbar from '../../../components/LeftNavbar';
-import TopNavbar from '../../../components/TopNavbar';
+import LeftNavbar from '../LeftNavbar';
+import TopNavbar from '../TopNavbar';
 
 const Assignments = () => {
   return (
     <div className="faculty-dashboard">
       <LeftNavbar />
-      <div className="content">
+      <div className="faculty-content">
         <TopNavbar />
         <div>
           <h2>Create Assignments</h2>

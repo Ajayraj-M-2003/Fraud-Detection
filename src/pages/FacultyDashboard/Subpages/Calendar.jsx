@@ -2,10 +2,10 @@
 
 import React, { useState } from 'react';
 
-import '../../../styles/Calendar.css';
-import LeftNavbar from '../../../components/LeftNavbar';
-import '../../../styles/Calendar.css';
-import TopNavbar from '../../../components/TopNavbar';
+
+import LeftNavbar from '../LeftNavbar';
+import '../../../components/Calendar.css';
+import TopNavbar from '../TopNavbar';
 
 const Calendar = () => {
   const currentDate = new Date();
@@ -42,7 +42,7 @@ const Calendar = () => {
   return (
     <div className='faculty-dashboard'>
       <LeftNavbar/>
-      <div className='content'>
+      <div className='faculty-content'>
         <TopNavbar/>
     <div className="calendar-container">
       <div className="calendar-header">

@@ -11,8 +11,8 @@
 
   
   /*Left Navbar*/
-  .sidebar {
-    background-color: black;
+  .faculty-dashboard .sidebar {
+    background-color: rgb(17, 13, 78);
     color: #fff;
     width: 200px;
     padding: 20px;
@@ -38,15 +38,15 @@
   padding-right: 0%;
   }
   
-  .sidebar-item:hover {
+  .faculty-dashboard .sidebar-item:hover {
     transform: translateX(10px);
-    background-color: rgb(244, 201, 83);
+    background-color: rgb(83, 155, 244);
   }
   .sidebar-item:nth-child(1) {
     margin-top: 20px;
   }
-  .sidebar-item:nth-child(1):hover {
-    background-color: rgb(218, 171, 44);
+  .faculty-dashboard .sidebar-item:nth-child(1):hover {
+    background-color: rgb(83, 155, 244);
   }
   .sidebar-item:nth-child(2) {
     margin-top: 40px;
@@ -118,7 +118,7 @@
   .dashboard-section h2 {
     font-size: 24px;
     margin-bottom: 10px;
-    color: #333;
+    color: #030303;
     border-bottom: 1px solid #ddd;
     padding-bottom: 10px;
   }
@@ -164,7 +164,8 @@ font-size: 20px;
     height: 100%; /* Make the image fill the container */
     object-fit: cover; /* Resize the image to cover the container */
 }
-.profile-container {
+ .profile-container {
+  color: black;
 
   align-items: center;
 }
@@ -180,11 +181,13 @@ font-size: 20px;
 
 
 
-.description {
+.faculty-dashboard .description {
   width: 75vw;
   font-size: 20px;
   padding: 10px;
   text-align: justify;
+  color: #030303;
+
 }
  
 
@@ -214,6 +217,6 @@ font-size: 20px;
 }
 
 .content button:hover {
-  background-color: #0a7cf6;
+  background-color: #0f1215;
 }
   

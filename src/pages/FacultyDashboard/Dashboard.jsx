@@ -1,5 +1,5 @@
 import React from "react";
-
+import "../../styles/FacultyDashboard.css"
 const Dashboard = () => {
   // Define an array of objects representing upcoming classes
   const upcomingClasses = [

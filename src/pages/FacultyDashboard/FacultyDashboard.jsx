@@ -2,6 +2,7 @@ import React from 'react'
 import LeftNavbar from '../FacultyDashboard/LeftNavbar'
 import TopNavbar from '../FacultyDashboard/TopNavbar'
 import Dashboard from './Dashboard'
+import "../../styles/FacultyDashboard.css"
 
 const FacultyDashboard = () => {
   return (

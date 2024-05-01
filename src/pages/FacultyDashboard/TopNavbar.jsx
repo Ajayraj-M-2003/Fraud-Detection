@@ -1,5 +1,5 @@
 import React from "react";
-
+import "../../styles/FacultyDashboard.css"
 const TopNavbar = () => {
   return (
     <div className="top-navbar">

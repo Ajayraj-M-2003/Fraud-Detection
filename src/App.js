@@ -7,6 +7,7 @@ import Calendar from "./pages/FacultyDashboard/Subpages/Calendar";
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Profile from "./pages/FacultyDashboard/Subpages/Profile";
 import Assignments from "./pages/FacultyDashboard/Subpages/Assignments"
+import StudentDashboard from "./pages/StudentDashboard/StudentDashboard";
 function App() {
   return (
     <div className="App">
@@ -18,6 +19,12 @@ function App() {
         <Route path="/profile" element={<Profile />} />
         <Route path="/calendar" element={<Calendar />} />
         <Route path="/assignments" element={<Assignments />} />
+
+
+        <Route path="/student-dashboard" element={<StudentDashboard />} />
+        <Route path="/student-profile" element={<Profile />} />
+        <Route path="/student-calendar" element={<Calendar />} />
+        <Route path="/student-assignments" element={<Assignments />} />
       </Routes>
     </Router>
     </div>

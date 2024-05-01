@@ -14,7 +14,11 @@ import Profile from './pages/FacultyDashboard/Subpages/Profile.jsx';
 import Calendar from './pages/FacultyDashboard/Subpages/Calendar.jsx';
 import Assignments from './pages/FacultyDashboard/Subpages/Assignments.jsx';
 
-import './components/FacultyDashboard.css';
+import './styles/FacultyDashboard.css'
+
+import StudentDashboard from './pages/StudentDashboard/StudentDashboard.jsx';
+import StudentProfile from './pages/StudentDashboard/Subpages/StudentProfile.jsx';
+import StudentAssignments from './pages/StudentDashboard/Subpages/StudentAssignments.jsx';
 
 const App = () => {
   return (
@@ -33,6 +37,11 @@ const App = () => {
         <Route path="/profile" element={<Profile />} />
         <Route path="/calendar" element={<Calendar />} />
         <Route path="/assignments" element={<Assignments />} />
+
+        <Route path="/student-dashboard" element={<StudentDashboard />} />
+        <Route path="/student-profile" element={<StudentProfile />} />
+        <Route path="/student-calendar" element={<Calendar />} />
+        <Route path="/student-assignments" element={<StudentAssignments />} />
       </Routes>
     </Router>
   );

@@ -1,6 +1,7 @@
 // LeftNavbar.js
 
 import React from "react";
+import "../../styles/FacultyDashboard.css"
 
 const LeftNavbar = () => {
   return (

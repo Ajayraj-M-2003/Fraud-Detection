@@ -18,23 +18,23 @@ const StudentLeftNavbar = () => {
 
       <div className="sidebar-item" onClick={() => {window.location.href = '/student-assignments';}}>
       <i className="fas fa-tasks"></i>
-        <span className="sidebar-title">Assignments</span>
+        <span className="sidebar-title">Courses</span>
       </div>
 
       <div className="sidebar-item">
       <i className="fas fa-book"></i>
-        <span className="sidebar-title">Learning Materials</span>
+        <span className="sidebar-title">Uploaded Assignments</span>
       </div>
 
 
       
       <div className="sidebar-item">
         <i className="fas fa-info-circle"></i>
-        <span className="sidebar-title">Details</span>
+        <span className="sidebar-title">Grades</span>
       </div>
       <div className="sidebar-item">
         <i className="fas fa-bell"></i>
-        <span className="sidebar-title">Notification</span>
+        <span className="sidebar-title">Chat Room</span>
       </div>
     </div>
   );
